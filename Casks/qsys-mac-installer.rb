@@ -1,6 +1,6 @@
 cask "qsys-mac-installer" do
-  version "0.1.2"
-  sha256 "f81c3130b482ccebf04d0b51899ac7b6263ae6073605253b9a17e5cdb6756330"
+  version "0.1.3"
+  sha256 "2ff6cf90433d90a17b332dd7c5e4737845e7c4a5fb193a786bf38391ee67b92a"
 
   url "https://github.com/reowens/qsys-tools/releases/download/qsys-mac-installer-v#{version}/qsys-mac-installer.dmg"
   name "Q-SYS Mac Installer"
@@ -13,7 +13,6 @@ cask "qsys-mac-installer" do
   end
 
   depends_on arch: :arm64
-  depends_on formula: "python"
   depends_on macos: :sonoma
 
   app "Q-SYS Mac Installer.app"
