@@ -1,6 +1,6 @@
 cask "qsys-mac-installer" do
-  version "0.1.7"
-  sha256 "5968ff8d7a58cee2d247773069b347a885305aa7a3cbfd2f729730564e481998"
+  version "0.1.8"
+  sha256 "b5c95937aeb3ce925b3c38216eb644b10fa83c2ab4c2c51f4e88213d65fba133"
 
   url "https://github.com/reowens/qsys-tools/releases/download/qsys-mac-installer-v#{version}/qsys-mac-installer.dmg"
   name "Q-SYS Mac Installer"
